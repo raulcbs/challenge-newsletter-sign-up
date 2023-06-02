@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         primary: 'var(--primary)',
+        secundary: 'var(--secundary)',
         charcoal_grey: 'var(--charcoal-grey)',
         grey: 'var(--grey)',
         dark_slate_grey: 'var(--dark-slate-grey)',
