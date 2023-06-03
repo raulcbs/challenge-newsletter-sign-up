@@ -8,9 +8,9 @@ const INITIAL_DESCRIPTION = [
 
 export default function ListOfDescription() {
   return (
-    <ul className='flex flex-col gap-2'>
+    <ul className='flex flex-col gap-2 md:gap-0'>
       {INITIAL_DESCRIPTION.map((description, index) => (
-        <Description>{description}</Description>
+        <Description key={index + description}>{description}</Description>
       ))}
     </ul>
   )

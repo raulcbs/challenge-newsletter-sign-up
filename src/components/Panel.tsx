@@ -3,7 +3,10 @@ import Information from './Information'
 
 export default function Panel() {
   return (
-    <div className='w-full h-full flex flex-col'>
+    <div
+      className='bg-white mx-auto md:rounded-2xl w-full flex flex-col md:flex-row-reverse 
+    md:max-w-screen-md md:mx-auto'
+    >
       <Hero />
       <Information />
     </div>

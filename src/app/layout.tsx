@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           sizes='any'
         />
       </head>
-      <body className={`${roboto.variable} font-roboto`}>{children}</body>
+      <body className={`${roboto.variable} font-roboto md:bg-charcoal_grey`}>{children}</body>
     </html>
   )
 }
