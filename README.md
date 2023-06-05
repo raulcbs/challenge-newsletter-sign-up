@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Screenshot
 
-![1](./public/screenshot_1.png) 
-![2](./public/screenshot_2.png)
+![](./public/Screenshot_1.png) 
+![](./public/Screenshot_2.png)
 
 ### Built with
 
